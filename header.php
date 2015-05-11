@@ -26,6 +26,8 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
+
+
 	<div id="sidebar" class="sidebar">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
@@ -49,3 +51,13 @@
 	</div><!-- .sidebar -->
 
 	<div id="content" class="site-content">
+
+		<div class="header">
+
+			<a href="<?php echo get_site_url(); ?>">
+				<div class="header-img">
+					<img class="img-responsive center" src="<?php echo get_template_directory_uri(); ?>/img/header.png">
+				</div>
+			</a>
+			<div class="spacer" style="clear: both;"></div>
+		</div>
