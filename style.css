@@ -883,7 +883,7 @@ a:focus {
 }
 
 .secondary-toggle {
-	background-color: transparent;
+	background-color: white;
 	border: 1px solid #eaeaea;
 	border: 1px solid rgba(51, 51, 51, 0.1);
 	height: 42px;
@@ -908,7 +908,7 @@ a:focus {
 
 .secondary-toggle:hover,
 .secondary-toggle:focus {
-	background-color: transparent;
+	background-color: white;
 	border: 1px solid #c1c1c1;
 	border: 1px solid rgba(51, 51, 51, 0.3);
 	outline: 0;
@@ -3900,7 +3900,7 @@ p > video {
 		position: fixed;
 		top: 0;
 		left: 0;
-		width: 29.4118%;
+		width: 20.001%;
 		z-index: 0; /* Fixes flashing bug with scrolling on Safari */
 	}
 
@@ -3914,7 +3914,7 @@ p > video {
 		margin-right: -100%;
 		max-width: 413px;
 		position: relative;
-		width: 29.4118%;
+		width: 20.001%;
 	}
 
 	.secondary {
@@ -3931,8 +3931,8 @@ p > video {
 	.site-content {
 		display: block;
 		float: left;
-		margin-left: 29.4118%;
-		width: 70.5882%;
+		margin-left: 20.001%;
+		width: 79.999%;
 	}
 
 	body {
@@ -4180,8 +4180,8 @@ p > video {
 	}
 
 	.widget {
-		font-size: 12px;
-		font-size: 1.2rem;
+		font-size: 15px;
+		font-size: 1.5rem;
 		margin: 0 0 20%;
 		padding: 0 20%;
 	}
@@ -5748,6 +5748,7 @@ p > video {
     /*padding: 5.0000%;*/
     position:relative;
     overflow:hidden;
+    background: white;
 }
 
 .header-img{
